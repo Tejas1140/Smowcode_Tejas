@@ -32,12 +32,6 @@ int main() {
     {
         cin >> arr[i];
     }
-    bool x=is_sorted(arr.begin(), arr.end());
-    //if array of elements are already sorted return 0
-    if(x==1)
-    {
-      cout<<0<<endl;
-    }
     else
     {
       int ans = minSwaps(arr,n);
