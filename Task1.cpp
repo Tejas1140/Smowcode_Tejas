@@ -32,11 +32,7 @@ int main() {
     {
         cin >> arr[i];
     }
-    else
-    {
-      int ans = minSwaps(arr,n);
-      cout << ans <<endl;
-    }
-
+    int ans = minSwaps(arr,n);
+    cout << ans <<endl;
     return 0;
 }
